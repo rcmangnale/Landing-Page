@@ -1,7 +1,7 @@
 export default function Mordern() {
   return (
     <div className=" feature">
-      <div className="container mx-auto mt-4 max-w-7xl">
+      <div className="container mx-auto mt-10 max-w-7xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
           <div className="max-w-sm p-6 bg-white ">
             <svg
