@@ -154,11 +154,6 @@ code {
 
 .testimonial {
   background-color:#f7f7fb;
-  height: 1009.8px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 .testimonial-header {
   position: relative;
@@ -176,7 +171,7 @@ code {
   margin-bottom: 16px;
 }
 .testimonial-text {
-  margin: 0;
+  
   font-size:1.181rem;;
   color: #696871;;
   text-align: center;
@@ -185,16 +180,12 @@ code {
 }
 .testimonial-card {
   background-color:white;
-  height: 351px;
-  width: 828px;
   margin-top: 130px;
   box-shadow: 0 47px 49px 0 rgba(65, 62, 101, 0.1);
   border-radius: 9px;
 }
 .testimonial-fact {
-  display: flex;
   width: 70%;
-  justify-content: space-between;
   margin-top: 127px;
 }
 .testimonial-fact-box {

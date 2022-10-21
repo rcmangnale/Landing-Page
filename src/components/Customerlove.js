@@ -3,15 +3,15 @@ import CustomerImage from "./Customerimage"
 
 const Customerlove = () => {
     return (
-        <div className="testimonial">
-            <div className="testimonial-header">
+        <div className="flex flex-col items-center testimonial">
+            <div className="testimonial-header ">
                 <p className="testimonial-title">Customers love us</p>
-                <p className="testimonial-text">Create custom landing pages with Omega that converts more visitors than any website.</p>
+                <p className="px-5 md:px-0 testimonial-text">Create custom landing pages with Omega that converts more visitors than any website.</p>
             </div>
-            <div className="testimonial-card">
+            <div className="testimonial-card lg:h[351px] lg:w-[828px;] ">
                 <CustomerImage></CustomerImage>
             </div>
-            <div className="testimonial-fact">
+            <div className="grid grid-cols-2 md:grid-cols-3 testimonial-fact">
                 <div className="testimonial-fact-box">
                     <p className="testimonial-fact-title">1M+</p>
                     <p className="testimonial-fact-text">Customers visit Omega every month to get their service done.</p>
