@@ -244,8 +244,8 @@ export default function Home() {
           <Customerlove></Customerlove>
           <Pricing></Pricing>
 
-          <div className="bg-gray-900 ">
-            <div className="grid grid-cols-2 pt-60 pl-60">
+          <div className="bg-gray-900 lg:pt-2 pt-96 ">
+            <div className="grid grid-cols-1 pl-2 pt-96 md:pt-64 lg:grid-cols-2 lg:pl-60">
               <div className="relative px-4 py-12 mx-auto sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
                 <div className=" md:w-1/2">
                   <h2 className="text-lg font-semibold text-gray-300">
@@ -271,7 +271,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 pl-60">
+            <div className="grid grid-cols-1 pl-2 lg:grid-cols-2 lg:pl-60">
               <div className="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
                 <div className=" md:w-1/2">
                   <h2 className="text-lg font-semibold text-gray-300">
