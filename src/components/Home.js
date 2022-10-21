@@ -226,8 +226,10 @@ export default function Home() {
 
          
           <Mordern></Mordern>
-          <Brands></Brands>
           
+          <div className="my-10">
+          <Brands></Brands>
+          </div>
           <div className="pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
             <div className="mx-auto max-w-7xl lg:px-8">
               <BeautifulPage></BeautifulPage>
