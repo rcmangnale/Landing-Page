@@ -218,44 +218,23 @@ export default function Home() {
       <div className="relative overflow-hidden">
         <Popovers></Popovers>
         <main>
-          <div className="background-img   pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
+          <div className="pt-10 background-img sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
             <div className="mx-auto max-w-7xl lg:px-8">
               <LandingPage></LandingPage>
             </div>
           </div>
 
-          {/* Feature section with screenshot */}
-          {/* <div className="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
-            <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-              <div>
-                <h2 className="text-lg font-semibold text-cyan-600">Serverless</h2>
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  No server? No problem.
-                </p>
-                <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-                  Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-                  malesuada. Eleifend condimentum id viverra nulla.
-                </p>
-              </div>
-              <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
-                <img
-                  className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-                  src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div> */}
+         
           <Mordern></Mordern>
           <Brands></Brands>
-          {/* <BeautifulPage></BeautifulPage> */}
-          <div className=" pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
+          
+          <div className="pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
             <div className="mx-auto max-w-7xl lg:px-8">
               <BeautifulPage></BeautifulPage>
             </div>
           </div>
 
-          <div className=" pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
+          <div className="pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
             <div className="mx-auto max-w-7xl lg:px-8">
               <Fits></Fits>
             </div>
@@ -263,10 +242,10 @@ export default function Home() {
           <Customerlove></Customerlove>
           <Pricing></Pricing>
 
-          <div className=" bg-gray-900">
+          <div className="bg-gray-900 ">
             <div className="grid grid-cols-2 pt-60 pl-60">
-              <div className="relative mx-auto  px-4 py-12  sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
-                <div className=" md:w-1/2 ">
+              <div className="relative px-4 py-12 mx-auto sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
+                <div className=" md:w-1/2">
                   <h2 className="text-lg font-semibold text-gray-300">
                     Can I use Omega for my clients?
                   </h2>
@@ -277,8 +256,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
-                <div className=" md:w-1/2 ">
+              <div className="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
+                <div className=" md:w-1/2">
                   <h2 className="text-lg font-semibold text-gray-300">
                     Can I use Omega for my clients?
                   </h2>
@@ -291,8 +270,8 @@ export default function Home() {
               </div>
             </div>
             <div className="grid grid-cols-2 pl-60">
-              <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
-                <div className=" md:w-1/2 ">
+              <div className="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
+                <div className=" md:w-1/2">
                   <h2 className="text-lg font-semibold text-gray-300">
                     Can I use Omega for my clients?
                   </h2>
@@ -303,8 +282,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
-                <div className=" md:w-1/2 ">
+              <div className="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-5 md:py-12 lg:px-2 lg:py-6">
+                <div className=" md:w-1/2">
                   <h2 className="text-lg font-semibold text-gray-300">
                     Can I use Omega for my clients?
                   </h2>
@@ -316,9 +295,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center text-white py-10">
+            <div className="flex items-center justify-center py-10 text-white">
               <div className="">
-                <p className="font-bold text-3xl">Build Fast, Launch Faster</p>
+                <p className="text-3xl font-bold">Build Fast, Launch Faster</p>
                 <p>
                   Create custom landing pages with Omega that converts <br></br>
                   more visitors than any website.
@@ -327,7 +306,7 @@ export default function Home() {
                   <form action="#" className="sm:mx-auto sm:max-w-xl lg:mx-0">
                     <a
                       href="#"
-                      className="inline-flex items-center rounded-md border border-transparent  bg-red-500 px-4 py-3 text-lg font-medium text-white "
+                      className="inline-flex items-center px-4 py-3 text-lg font-medium text-white bg-red-500 border border-transparent rounded-md "
                     >
                       Start 14 Days free trial
                     </a>

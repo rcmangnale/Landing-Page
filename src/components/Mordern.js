@@ -1,8 +1,8 @@
 
-const Mordern = () => {
+export default function Mordern  ()  {
     return (
         <div className="feature">
-            <div className="feature-container">
+            <div className="grid grid-cols-1 feature-container lg:grid-cols-3 md:grid-col-2">
                 <div className="feature-box">
                     <div className="feature-logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="34" viewBox="0 0 29 34">
@@ -71,4 +71,3 @@ const Mordern = () => {
     )
 }
 
-export default Mordern;
